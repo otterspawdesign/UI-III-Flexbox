@@ -158,18 +158,20 @@ body {
 header {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 header nav {
   display: flex;
-  justify-content: space-evenly;
-  width: 50%;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .cta {
   display: flex;
   width: 100%;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .cta .cta-text {
@@ -179,11 +181,13 @@ header nav {
 
 h1 {
   color: limegreen;
+  display: flex;
 }
 
 button {
   width: 100px;
   height: 25px;
+  display: flex;
 }
 
 .main-content {
