@@ -150,3 +150,84 @@ h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+
+body {
+  width: 886px;
+  margin: auto;
+}
+header {
+  display: flex;
+  margin: 20px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+}
+
+.services-header-img {
+margin: 50px 20px;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+h2{
+    margin: 20px 20px;
+    padding: 20px 20px;
+}
+
+p {
+    margin: 20px 20 px;
+    padding: 20px 20px;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid black;
+  padding: 0 0 30px 0;
+  
+}
+
+.box-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  margin: 20px 20px;
+  padding: 0 0 30px 0;
+
+
+}
+
+.box-section .box-content {
+  display: flex; 
+  flex-direction: column;
+  width: 45%;
+  background-color: lightgrey;
+  border: 1px solid black;
+  margin: 20px 20px;
+}
+
+button {
+    width: 40%;
+    margin: 30px 30px;
+    padding 10px 10px;
+}
+
+.bottom-section{
+    display: flex;
+    
+}
+
+footer{
+    
+    text-align: center;
+}
