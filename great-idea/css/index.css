@@ -150,3 +150,20 @@ h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	width: 886px;
+	margin: auto;
+  }
+  header {
+	display: flex;
+	margin: 20px 0;
+	justify-content: space-between;
+	align-items: center;
+  }
+  
+  header nav {
+	display: flex;
+	width: 70%;
+	justify-content: space-between;
+  }
