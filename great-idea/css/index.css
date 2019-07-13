@@ -149,10 +149,74 @@ h5 {
   margin-bottom: 15px;
 }
 
-
-
 /* My Code Starts Here */
 
-header{
+.container {
+  width: 876px;
+  margin: auto;
+}
+
+header {
   display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  width: 65%;
+  justify-content: space-between;
+}
+
+header nav a {
+  text-decoration: none;
+  color: grey;
+}
+
+.cta {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 15px 0 45px 0;
+  border-bottom: 2px solid black;
+}
+
+.cta .cta-text {
+  margin: auto;
+  font-size: 4.5rem;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid black;
+}
+
+.main-content .top-content {
+  display: flex;
+  margin: 30px 0;
+}
+
+.main-content .top-content #features{
+  padding-right: 30px;
+}
+
+.main-content .bottom-content{
+  display: flex;
+  margin: 30px 0;
+}
+
+.main-content .bottom-content #services{
+  padding-right: 20px;
+}
+
+.main-content .bottom-content #product{
+  padding-right: 20px;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
 }
