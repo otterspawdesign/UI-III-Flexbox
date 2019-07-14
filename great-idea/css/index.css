@@ -149,21 +149,23 @@ h5 {
   margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* My Code Starts Here */
 
-body {
-  width: 900px;
+.container {
+  width: 876px;
   margin: auto;
 }
+
 header {
   display: flex;
-  margin: 20px 0;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  margin: 30px 0;
+  align-items: center;
 }
 
 header nav {
   display: flex;
-  width: 100%;
+  width: 65%;
   justify-content: space-between;
 }
 
@@ -174,43 +176,52 @@ header nav a {
 
 .cta {
   display: flex;
-  justify-content: space-evenly;
-  padding: 50px 0;
-  border-bottom: 1px solid black;
+  justify-content: space-between;
+  text-align: center;
+  padding: 15px 0 45px 0;
+  border-bottom: 2px solid black;
 }
 
 .cta .cta-text {
-  font-size: 5rem;
-  text-align: center;
+  margin: auto;
+  font-size: 4.5rem;
 }
 
-.cta .cta-text a {
-  font-size: 20px;
-  text-decoration: none;
-  color: black;
-  width: 300px;
-  border: 1px solid black;
-  padding: 0 20px;
+.main-content {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid black;
 }
 
 .main-content .top-content {
   display: flex;
-  margin: 40px 0;
+  margin: 30px 0;
+}
+
+.main-content .top-content #features {
+  padding-right: 30px;
 }
 
 .main-content .bottom-content {
   display: flex;
-  margin: 20px 20px;
-  border-bottom: 1px solid black;
+  margin: 30px 0;
 }
 
-.main-content .bottom-content .text-content {
-  margin: 20px 0;
-  padding: 20px 20px;
+.main-content .bottom-content #services {
+  padding-right: 20px;
 }
 
-#copyright {
+.main-content .bottom-content #product {
+  padding-right: 20px;
+}
+
+.contact {
   display: flex;
-  justify-content: center;
-  margin: 50px 0 50px 0;
+  flex-direction: column;
+  margin: 30px 0;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 30px;
 }
